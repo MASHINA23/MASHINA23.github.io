@@ -1,0 +1,149 @@
+@charset "utf-8";
+body{
+    background-color: #1d1d1d;
+    padding: 50x 25px 5px 5px;
+    margin: 25px;
+}
+.nav {
+position: static;
+height: auto;
+width: auto;
+left: auto;
+}
+.nav {
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+color: rgba(255,255,255,1);
+    list-style-type: none;
+    padding: 5px;
+}
+
+#details {
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+text-decoration: none;
+display: inline-block;
+list-style-type: none;
+}
+
+.content {
+font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+font-size: 100%;
+font-style: oblique;
+color: aliceblue;
+text-transform: capitalize;
+cursor: pointer;
+
+}
+
+#socialMedia {
+font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+list-style-type: none;
+position: static;
+bottom: auto;
+
+}
+ul{
+    list-style-type: none;
+}
+li a{
+    color: aqua;
+    text-decoration: none;
+}
+h1,p1{
+    font-size: 40px;
+}
+q{
+    color: aqua;
+    font-style: italic;
+    font-size: 20px;
+}
+.fa:hover {
+color: papayawhip;
+}	
+div.transbox {
+margin: 30px;
+background-color: white;
+border: 1px solid black;
+
+ 
+}
+
+div.transbox p {
+margin: 5%;
+font-weight: bold;
+color:darkslateblue;
+}
+.column {
+    column-count: 3;
+    margin: 25px;
+    padding: 5px;
+}
+/* CSS Document */
+/*
+body{
+    background-color: #1d1d1d;		
+	}
+.nav {
+    position: fixed;
+    height: auto;
+    width: auto;
+    left: auto;
+}
+.nav {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: rgba(255,255,255,1);
+    list-style-type: none;
+}
+	.nav name{
+		
+	}
+	
+	#details {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+	
+.content {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+	color: aliceblue;
+    text-transform: capitalize;
+    cursor: pointer;
+    -webkit-transition: all;
+    -o-transition: all;
+    transition: all;
+}
+
+#socialMedia {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    list-style-type: none;
+    position: static;
+    bottom: auto;
+	
+}
+	ul{
+		list-style-type: none;
+	}
+	li a{
+		color: aqua;
+		text-decoration: none;
+	}
+	h1,p1{
+		font-size: 40px;
+	}
+	q{
+		color: aqua;
+		font-style: italic;
+		font-size: 20px;
+	}
+
+	.column {
+    column-count: 3;
+}
+
+.about{
+	color: aqua;
+margin-left: 200px; /* Same as the width of the sidenav */	
+
