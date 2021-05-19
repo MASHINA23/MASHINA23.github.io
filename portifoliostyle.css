@@ -118,6 +118,9 @@ li a{
     color: aqua;
     text-decoration: none;
 }
+li a:hover{
+  color: papayawhip;
+}
 h1,p1{
     font-size: 40px;
 }
